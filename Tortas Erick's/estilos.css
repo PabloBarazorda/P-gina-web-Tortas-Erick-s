@@ -1,0 +1,31 @@
+/* Intro son los estilos del Index.html */
+h1#Intro {
+    text-align: center;
+    color: #FFA500;
+    font-size: 40px;
+    display: flex;
+    font-family: 'Great Vibes', cursive;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#Intro a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1#Intro a:visited {
+    color: #FFA500;
+}
+
+/*  banner es el estilo de la imagen de fondo  */
+
+.banner {
+    background-image: url('./imagenes/fondotortase.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
